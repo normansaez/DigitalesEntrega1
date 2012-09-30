@@ -1,0 +1,4 @@
+djtgcfg enum
+djtgcfg init -d Nexys2
+djtgcfg prog -d Nexys2 --index 1 --file file.bit 
+djtgcfg prog -d Nexys2 --index 0 --file file.bit 
